@@ -1,0 +1,53 @@
+{
+  "name": "delete-thread-amp",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to bulk delete threads from ampcode.com. Delete single or multiple threads efficiently with configurable delays, automatic validation, and detailed reporting.",
+  "type": "module",
+  "main": "src/delete-threads.ts",
+  "bin": {
+    "delete-threads": "./src/delete-threads.ts"
+  },
+  "scripts": {
+    "start": "tsx src/delete-threads.ts",
+    "delete": "tsx src/delete-threads.ts"
+  },
+  "keywords": [
+    "ampcode",
+    "ampcode.com",
+    "thread",
+    "threads",
+    "delete",
+    "deletion",
+    "bulk-delete",
+    "bulk-deletion",
+    "cli",
+    "command-line",
+    "command-line-tool",
+    "automation",
+    "automated",
+    "forum",
+    "forum-management",
+    "batch",
+    "batch-processing",
+    "typescript",
+    "ts",
+    "nodejs",
+    "node",
+    "utility",
+    "tool",
+    "scraper",
+    "web-scraping",
+    "api",
+    "rest-api",
+    "thread-manager",
+    "content-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

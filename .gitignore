@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+
+# Ignore thread ID files (except examples)
+examples/*.txt
+!examples/threads-example.txt
